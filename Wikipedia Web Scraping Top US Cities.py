@@ -81,7 +81,7 @@ columns = newdf.iloc[0].tolist(); columns #retrieve the column names of the data
 
 # In[7]:
 
-
+#This is the part of the code that starts breaking now when you try it on the new Wikipedia page.
 newdf = newdf.drop([7,9],axis=1)        #remove duplicated columns
 colname = ['2018 Rank','City','State','2018 Population Estimate','2010 Population Estimate','Population Change','2016 Land Area','2016 Population Density','Location']
 newdf.columns = colname             #rename the columns of the data frame for easier interpretation
